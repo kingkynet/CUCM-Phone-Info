@@ -43,6 +43,9 @@ class PhoneScraper(BaseModel):
     gateway: str = None
     dns1: str = None
     dns2: str = None
+    dns3: str = None
+    dns4: str = None
+    dns5: str = None
     alt_tftp: str = None
     tftp1: str = None
     tftp2: str = None
@@ -87,6 +90,9 @@ class Phone_Cucm_Scraper_Combined(PhoneInfo):
     gateway: str = None
     dns1: str = None
     dns2: str = None
+    dns3: str = None
+    dns4: str = None
+    dns5: str = None
     alt_tftp: str = None
     tftp1: str = None
     tftp2: str = None
