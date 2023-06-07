@@ -48,7 +48,7 @@ export default {
                     indicators: true
                     },
                 colHeaders: ['Name', 'Model', 'IPv4', 'Serial', 'Firmware', 'DN', 'kem1',  'kem2', 'Subnet', 'Gateway', 'DHCP', 'DHCP Server', 'Domain', 'DNS1', 
-                'DNS2', 'Alt TFTP', 'TFTP 1', 'TFTP 2', 'op_vlan', 'admin_vlan', 'CDP Host', 'CDP IP', 'CDP Port', 'LLDP Port', 'LLDP Port', 'LLDP Port',  'CUCM 1', 
+                'DNS2', 'DNS3', 'DNS4', 'DNS5', 'Alt TFTP', 'TFTP 1', 'TFTP 2', 'op_vlan', 'admin_vlan', 'CDP Host', 'CDP IP', 'CDP Port', 'LLDP Port', 'LLDP Port', 'LLDP Port',  'CUCM 1', 
                 'CUCM 2', 'CUCM 3', 'CUCM 4', 'CUCM 5', 'Info URL', 'Dir URL', 'SVC URL', 'IDLR URL', 'Info URL Time', 'Proxy URL', 'Auth URL', 'TVS', 'ITL', 
                 'Last Scraped'
                 ],
@@ -69,6 +69,9 @@ export default {
                     {data: "domain_name",  readOnly: true},
                     {data: "dns1",  readOnly: true},
                     {data: "dns2",  readOnly: true},
+                    {data: "dns3",  readOnly: true},
+                    {data: "dns4",  readOnly: true},
+                    {data: "dns5",  readOnly: true},
                     {data: "alt_tftp",  readOnly: true},
                     {data: "tftp1",  readOnly: true},
                     {data: "tftp2",  readOnly: true},
